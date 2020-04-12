@@ -1,13 +1,11 @@
 #include <iostream>
-#define MAX 100
 
 using namespace std;
-
-int dp[MAX][MAX];
 
 int main()
 {
     int n, m;
+    int dp[100][100];
     cout << "Enter: ";
     cin >> n >> m;
     dp[1][1]=1;
